@@ -441,6 +441,7 @@ void Specialkeyboard(int key, int x, int y)
 //팝업 메뉴 함수
 void popupMenu(int value) {
     switch (value) {
+            
     //기본 시점
     case 1:
         zoom = 1;
@@ -458,6 +459,7 @@ void popupMenu(int value) {
         RotateY = 1.0;
         RotateZ = -1.0;
         break;
+            
     //위 시점
     case 2:
         zoom = 1;
@@ -475,6 +477,7 @@ void popupMenu(int value) {
         RotateY = 0.0;
         RotateZ = 0.0;
         break;
+            
     //옆 시점
     case 3:
         zoom = 1;
@@ -492,6 +495,7 @@ void popupMenu(int value) {
         RotateY = 1.0;
         RotateZ = 0.0;
         break;
+            
     //앞 시점
     case 4:
         zoom = 1;
@@ -509,6 +513,7 @@ void popupMenu(int value) {
         RotateY = 1.0;
         RotateZ = 0.0;
         break;
+            
     //무작위 시점
     case 5:
         zoom = 1;
